@@ -1,4 +1,5 @@
 import IMask from 'imask';
+import './js/modals';
 //import NiceSelect from "nice-select2";
 
 
