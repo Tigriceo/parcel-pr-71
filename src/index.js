@@ -11,6 +11,7 @@ for (let i = 0; i < selects.length; i++) {
     const select = selects[i];
     NiceSelect.bind(select, {
         //options
+        //searchable: true,
     });
 }
 
@@ -18,8 +19,8 @@ for (let i = 0; i < selects.length; i++) {
 /**
  * Input mask
  */
-var element = document.getElementById('selector');
+var phoneInput = document.getElementById('phone-selector');
 var maskOptions = {
-    mask: '+{3}(000)000-00-00'
+    mask: '+{38}(000)000-00-00'
 };
-var mask = IMask(element, maskOptions);
+var mask = IMask(phoneInput, maskOptions);

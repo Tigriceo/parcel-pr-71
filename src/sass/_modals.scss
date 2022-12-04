@@ -40,6 +40,14 @@
   border-radius: 3px;
   background-color: #fff;
   transition: 0.3s all;
+
+
+  // all
+  // screen
+  // print
+  @media screen and(max-width:1100px) {
+    color: #414b52;
+  }
 }
 
 /* Стили для активных классов подложки и окна */
